@@ -50,6 +50,8 @@ public class Post {
     }
 
 
+    
+
     //Getters y Setters
     public String getDescripcion() {
         return descripcion;
