@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">AppMascotas</string>
+    <string name="publicar">Agregar Publicacion</string>
+    <string name="ver_posts">Ver Publicaciones</string>
+    <string name="boton_eliminar">Eliminar Publicaciones</string>
+
+    <string name="txt1">Edita tu publicación</string>
+    <string-array name="tipo">
+        <item>Perro(s)</item>
+        <item>Gato(s)</item>
+    </string-array>
+    <string name="ingresarDesc">Descripción de la(s) mascota(s)</string>
+    <string name="ingresarCantidad">Cantidad</string>
+    <string name="ingresarCiudad">Ciudad</string>
+    <string name="ingresarPais">País</string>
+    <string name="txt2">Información de contacto</string>
+    <string name="ingresarCorreo">Correo Electrónico</string>
+    <string name="ingresarCelular">Número celular</string>
+    <string name="botonPublicar">Publicar</string>
+
+
+    <string name="vigencia">Cantidad</string>
+</resources>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/gato2"/>
+
+    <Button
+        android:id="@+id/publicar"
+        android:background="@color/colorTest"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="start"
+        android:layout_marginTop="70dp"
+        android:onClick="publicar"
+        android:text="@string/publicar" />
+
+    <Button
+        android:id="@+id/ver_posts"
+        android:background="@color/colorTest"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="start"
+        android:layout_marginTop="140dp"
+        android:onClick="verPosts"
+        android:text="@string/ver_posts" />
+
+    <Button
+        android:id="@+id/boton_eliminar"
+        android:background="@color/colorTest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="220dp"
+        android:onClick="eliminarPublicacion"
+        android:text="@string/boton_eliminar" />
+
+
+</RelativeLayout>

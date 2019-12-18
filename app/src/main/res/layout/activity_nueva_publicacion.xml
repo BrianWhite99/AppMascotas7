@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".NuevaPublicacionActivity">
+
+
+
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txt1" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+    <Spinner
+        android:id="@+id/ingresarTipo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:entries="@array/tipo"
+        />
+
+    <EditText
+        android:id="@+id/ingresarDesc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/ingresarDesc"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/ingresarCantidad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/ingresarCantidad"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/ingresarCiudad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/ingresarCiudad"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/ingresarPais"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/ingresarPais"
+        android:inputType="text" />
+
+    <TextView
+        android:id="@+id/txt2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="@string/txt2" />
+
+    <EditText
+        android:id="@+id/ingresarCorreo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/ingresarCorreo"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/ingresarCelular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/ingresarCelular"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/botonPublicar"
+        android:background="@color/colorTest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="publicarPost"
+        android:text="@string/botonPublicar" />
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/gatoin"/>
+
+</LinearLayout>
